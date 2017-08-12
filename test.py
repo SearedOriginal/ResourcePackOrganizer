@@ -1,7 +1,11 @@
+#Scrap this idea. Won't work because PID's are never the same it looks like
+
+import psutil
 class ResourceManager:
     "handles stuff"
     def checker(processID):
         if processID == "1.7 process ID":
+            #this is 1.7 PID
             17Organizer()
         elif processID == "1.10 process ID":
             110Organizer()
